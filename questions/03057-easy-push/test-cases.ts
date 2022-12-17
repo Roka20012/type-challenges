@@ -1,4 +1,5 @@
 import type { Equal, Expect } from '@type-challenges/utils'
+import type { Push } from './template'
 
 type cases = [
   Expect<Equal<Push<[], 1>, [1]>>,
